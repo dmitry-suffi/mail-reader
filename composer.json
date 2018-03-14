@@ -1,0 +1,20 @@
+{
+  "name": "suffi/mail-reader",
+  "description": "Библиотека для чтения писем",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Suffi",
+      "email": "dmitry.suffering@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Suffi\\MailReader\\": "src\\"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
